@@ -1,0 +1,14 @@
+{
+  "name": "acrostia",
+  "authors": [
+    "vangel.hristov <vangel.hristov@yahoo.com>"
+  ],
+  "description": "one page template",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "jquery": "3.4.1",
+    "jquery-scrollspy": "*"
+  }
+}

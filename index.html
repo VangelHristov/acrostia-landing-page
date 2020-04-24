@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Acrostia</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/carousel.css">
+</head>
+<body>
+<div class="container">
+    <nav id="navigation" class="sticky">
+        <i class="menu ml-1 lg-none sm-inline-block">
+            <img src="./img/menu.png" alt="menu icon">
+        </i>
+        <ul class="navbar sm-none">
+            <li class="logo grow-1 nav-item">
+                <img src="./img/acrostia.png" alt="company logo"
+                     srcset="./img/acrostia@2x.png 2x, ./img/acrostia@3x.png 3x">
+            </li>
+            <li class="active nav-item sm-none" id="home-link">
+                <a href="#home">Home</a>
+            </li>
+            <li id="services-link" class="nav-item">
+                <a href="#services">Services</a>
+            </li>
+            <li id="about-link" class="nav-item">
+                <a href="#about">About</a>
+            </li>
+            <li id="work-link" class="nav-item">
+                <a href="#work">Work</a>
+            </li>
+            <li id="contact-link" class="mr-5 nav-item">
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section id="home" class="flex-column justify-center sm-none">
+        <div id="home-carousel">
+            <div class="grow-1 carousel">
+                <div class="carousel-images">
+                    <img src="./img/layer-2.png" alt="book" srcset="./img/layer-2@2x.png 2x, ./img/layer-2@3x.png 3x">
+                    <img src="./img/laptop.jpg" alt="laptop" srcset="./img/laptop@2x.jpg 2x, ./img/laptop@3x.jpg 3x">
+                    <img src="./img/business_meeting.jpg" alt="business meeting"
+                         srcset="./img/business_meeting@2x.jpg 2x, ./img/business_meeting@3x.jpeg 3x">
+                </div>
+                <div class="carousel-captions">
+                    <div class="carousel-caption light-blue flex-row justify-center semi-transparent">
+                        <div class="d-inline-block">
+                            <div class="uppercase big">good ideas</div>
+                            <div class="lowercase big">comes</div>
+                        </div>
+                        <span class="huge uppercase">first!</span>
+                    </div>
+                    <div class="carousel-caption light-blue semi-transparent">
+                        <div class="d-inline-block">
+                            <div class="uppercase big">Lorem ipsum</div>
+                            <div class="lowercase big">comes</div>
+                        </div>
+                        <span class="huge uppercase">Lorem!</span>
+                    </div>
+                    <div class="carousel-caption light-blue flex-row justify-center semi-transparent">
+                        <div class="d-inline-block">
+                            <div class="uppercase big">Lorem ipsum</div>
+                            <div class="lowercase big">comes</div>
+                        </div>
+                        <span class="huge uppercase">ipsum!</span>
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <i class="arrow left-arrow carousel-prev"></i>
+                    <i class="arrow right-arrow carousel-next"></i>
+                </div>
+                <div class="text-center sm-none carousel-indicators">
+                    <span class="dot semi-transparent carousel-indicator"></span>
+                    <span class="dot semi-transparent carousel-indicator"></span>
+                    <span class="dot semi-transparent carousel-indicator"></span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="services" class="flex-column justify-around">
+        <div id="services-description" class="mt-2">
+            <h3 class="text-center uppercase bigger mb-1 section-title">our services</h3>
+            <p class="text-center uppercase mb-1 mx-5 sm-none">Cras commodo mattis justo nec lobortis. Nam ut tellus
+                <span class="lobortis">lobortis</span>
+                Cras commodo mattis justo nec lobortis. Nam ut tellus lobortis, ullamcorper massa sit amet.
+            </p>
+            <p class="text-center small light-rose mx-5">
+                Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien. Curabitur posuere lectus aliquet
+                erat rutrum sollicitudin. In enim diam, ullamcorper quis libero et, ultricies commodo est. Quisque at
+                ante vitae justo fermentum viverra ac eu justo. Ut luctus imperdiet lacus, eget laoreet erat posuere
+                quis.
+            </p>
+        </div>
+        <div class="cards-container">
+            <div class="bg-red flex-card">
+                <div class="image-frame-circle mb-2 mt-2">
+                    <div class="image-container flex-column items-center justify-center">
+                        <img src="./img/lightball.png" alt="light bulb icon"
+                             srcset="./img/lightball@2x.png 2x, ./img/lightball@3x.png 3x">
+                    </div>
+                </div>
+                <h5 class="text-center uppercase mb-2">researching</h5>
+                <h6 class="text-center mb-2 mt-1">
+                    Praesent interdum blandit quam. Asunt in anim uis aute irure dolor in reprehenderit in voluptate
+                    velit
+                    esse cillum dolore.
+                </h6>
+            </div>
+            <div class="bg-red flex-card">
+                <div class="image-frame-circle mb-2">
+                    <div class="image-container flex-column items-center justify-center">
+                        <img src="./img/m-wand.png" alt="magic wand icon"
+                             srcset="./img/m-wand@2x.png 2x, ./img/m-wand@3x.png 3x">
+                    </div>
+                </div>
+                <h5 class="text-center uppercase mb-2">design</h5>
+                <h6 class="text-center">
+                    Praesent interdum blandit quam. Asunt in anim uis aute irure dolor in reprehenderit in voluptate
+                    velit
+                    esse cillum dolore.
+                </h6>
+            </div>
+            <div class="bg-red flex-card">
+                <div class="image-frame-circle mb-2">
+                    <div class="image-container flex-column items-center justify-center">
+                        <img src="./img/giars.png" alt="gears icon"
+                             srcset="./img/giars@2x.png 2x, ./img/giars@3x.png 3x">
+                    </div>
+                </div>
+                <h5 class="text-center uppercase mb-2">development</h5>
+                <h6 class="text-center">
+                    Praesent interdum blandit quam. Asunt in anim uis aute irure dolor in reprehenderit in voluptate
+                    velit
+                    esse cillum dolore.
+                </h6>
+            </div>
+            <div class="bg-red flex-card">
+                <div class="image-frame-circle mb-2">
+                    <div class="image-container flex-column items-center justify-center">
+                        <img src="./img/rocket.png" alt="rocket icon"
+                             srcset="./img/rocket@2x.png 2x, ./img/rocket@3x.png 3x">
+                    </div>
+                </div>
+                <h5 class="text-center uppercase mb-2">launch</h5>
+                <h6 class="text-center">
+                    Praesent interdum blandit quam. Asunt in anim uis aute irure dolor in reprehenderit in voluptate
+                    velit
+                    esse cillum dolore.
+                </h6>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="flex-column justify-around">
+        <div class="flex-column justify-center items-center h-50">
+            <h3 class="text-center uppercase bigger mb-1">Who we are &amp; what we do</h3>
+
+            <p class="text-center small light-lavender mx-5">
+                Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien. Curabitur posuere lectus aliquet
+                erat rutrum sollicitudin. In enim diam, ullamcorper quis libero et, ultricies commodo est. Quisque at
+                ante vitae justo fermentum viverra ac eu justo. Ut luctus imperdiet lacus, eget laoreet erat posuere
+                quis.
+            </p>
+
+            <div class="sm-none uppercase big text-center mt-2 bg-green p-1" id="meet-team">meet the team</div>
+            <div class="triangle-bottom sm-none"></div>
+        </div>
+        <div class="cards-container">
+            <div class="flex-card bg-lavender">
+                <div class="image-frame-circle mb-2">
+                    <div class="image-container">
+
+                    </div>
+                </div>
+                <h5 class="text-center uppercase mb-2">anton petrov</h5>
+                <h6 class="text-center">
+                    General manager
+                </h6>
+                <div class="flex-row justify-between mt-2">
+                    <i class="bg-lavender-light social-icon icon-small facebook">
+                        <a href="#">
+                            <img src="./img/facebook_2.png" alt="facebook logo"
+                                 srcset="./img/facebook_2@2x.png 2x, ./img/facebook_2@3x.png 3x">
+                        </a>
+                    </i>
+                    <i class="bg-lavender-light social-icon icon-small twitter">
+                        <a href="#">
+                            <img src="./img/twit_2.png" alt="twitter logo"
+                                 srcset="./img/twit_2@2x.png 2x, ./img/twit_2@3x.png 3x">
+                        </a>
+                    </i>
+                    <i class="bg-lavender-light social-icon icon-small google">
+                        <a href="#">
+                            <img src="./img/g_2.png" alt="google plus logo"
+                                 srcset="./img/g_2@2x.png 2x, ./img/g_2@3x.png 3x">
+                        </a>
+                    </i>
+                    <i class="bg-lavender-light social-icon icon-small linked-in">
+                        <a href="#">
+                            <img src="./img/lin_2.png" alt="linked in logo"
+                                 srcset="./img/lin_2@2x.png 2x, ./img/lin_2@3x.png 3x">
+                        </a>
+                    </i>
+                </div>
+            </div>
+            <div class="flex-card bg-lavender">
+                <div class="image-frame-circle mb-2">
+                    <div class="image-container">
+
+                    </div>
+                </div>
+                <h5 class="text-center uppercase mb-2">kiril donchev</h5>
+                <h6 class="text-center">
+                    Design Master
+                </h6>
+                <div class="flex-row justify-center mt-2">
+                    <i class="bg-lavender-light social-icon icon-small facebook">
+                        <a href="#">
+                            <img src="./img/facebook_2.png" alt="facebook logo"
+                                 srcset="./img/facebook_2@2x.png 2x, ./img/facebook_2@3x.png 3x">
+                        </a>
+                    </i>
+                    <i class="bg-lavender-light social-icon icon-small twitter">
+                        <a href="#">
+                            <img src="./img/twit_2.png" alt="twitter logo"
+                                 srcset="./img/twit_2@2x.png 2x, ./img/twit_2@3x.png 3x">
+                        </a>
+                    </i>
+                    <i class="bg-lavender-light social-icon icon-small google">
+                        <a href="#">
+                            <img src="./img/g_2.png" alt="google plus logo"
+                                 srcset="./img/g_2@2x.png 2x, ./img/g_2@3x.png 3x">
+                        </a>
+                    </i>
+                    <i class="bg-lavender-light social-icon icon-small linked-in">
+                        <a href="#">
+                            <img src="./img/lin_2.png" alt="linked in logo"
+                                 srcset="./img/lin_2@2x.png 2x, ./img/lin_2@3x.png 3x">
+                        </a>
+                    </i>
+                </div>
+            </div>
+            <div class="flex-card bg-lavender">
+                <div class="image-frame-circle mb-2">
+                    <div class="image-container">
+
+                    </div>
+                </div>
+                <h5 class="text-center uppercase mb-2">ilian dobrev</h5>
+                <h6 class="text-center">
+                    Developer Ninja
+                </h6>
+                <div class="flex-row justify-center mt-2">
+                    <i class="bg-lavender-light social-icon icon-small facebook">
+                        <a href="#">
+                            <img src="./img/facebook_2.png" alt="facebook logo"
+                                 srcset="./img/facebook_2@2x.png 2x, ./img/facebook_2@3x.png 3x">
+                        </a>
+                    </i>
+                    <i class="bg-lavender-light social-icon icon-small twitter">
+                        <a href="#">
+                            <img src="./img/twit_2.png" alt="twitter logo"
+                                 srcset="./img/twit_2@2x.png 2x, ./img/twit_2@3x.png 3x">
+                        </a>
+                    </i>
+                    <i class="bg-lavender-light social-icon icon-small google">
+                        <a href="#">
+                            <img src="./img/g_2.png" alt="google plus logo"
+                                 srcset="./img/g_2@2x.png 2x, ./img/g_2@3x.png 3x">
+                        </a>
+                    </i>
+                    <i class="bg-lavender-light social-icon icon-small linked-in">
+                        <a href="#">
+                            <img src="./img/lin_2.png" alt="linked in logo"
+                                 srcset="./img/lin_2@2x.png 2x, ./img/lin_2@3x.png 3x">
+                        </a>
+                    </i>
+                </div>
+            </div>
+            <div class="flex-card bg-lavender">
+                <div class="image-frame-circle mb-2">
+                    <div class="image-container">
+
+                    </div>
+                </div>
+                <h5 class="text-center uppercase mb-2">doni stamov</h5>
+                <h6 class="text-center">
+                    SEO guru
+                </h6>
+                <div class="flex-row justify-center mt-2">
+                    <i class="bg-lavender-light social-icon icon-small facebook">
+                        <a href="#">
+                            <img src="./img/facebook_2.png" alt="facebook logo"
+                                 srcset="./img/facebook_2@2x.png 2x, ./img/facebook_2@3x.png 3x">
+                        </a>
+                    </i>
+                    <i class="bg-lavender-light social-icon icon-small twitter">
+                        <a href="#">
+                            <img src="./img/twit_2.png" alt="twitter logo"
+                                 srcset="./img/twit_2@2x.png 2x, ./img/twit_2@3x.png 3x">
+                        </a>
+                    </i>
+                    <i class="bg-lavender-light social-icon icon-small google">
+                        <a href="#">
+                            <img src="./img/g_2.png" alt="google plus logo"
+                                 srcset="./img/g_2@2x.png 2x, ./img/g_2@3x.png 3x">
+                        </a>
+                    </i>
+                    <i class="bg-lavender-light social-icon icon-small linked-in">
+                        <a href="#">
+                            <img src="./img/lin_2.png" alt="linked in logo"
+                                 srcset="./img/lin_2@2x.png 2x, ./img/lin_2@3x.png 3x">
+                        </a>
+                    </i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="flex-column justify-around">
+        <div class="flex-column justify-start items-center">
+            <h3 class="text-center uppercase bigger mb-1 mt-2 section-title">our work</h3>
+
+            <p class="text-center small mx-5 lg-none">
+                Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien. Curabitur posuere lectus aliquet
+                erat rutrum sollicitudin. In enim diam, ullamcorper quis libero et, ultricies commodo est. Quisque at
+                ante vitae justo fermentum viverra ac eu justo. Ut luctus imperdiet lacus, eget laoreet erat posuere
+                quis.
+            </p>
+        </div>
+
+        <div id="portfolio-filter" class="md-none mx-5 p-2 flex-row justify-between">
+            <h4 class="uppercase lg-none">portfolio</h4>
+            <ul class="flex-row text-center justify-end grow-1">
+                <li class="">All</li>
+                <li id="photography">Photography</li>
+                <li>Logo Design</li>
+                <li>Web Design</li>
+            </ul>
+        </div>
+
+        <div class="flex-row mx-5" id="portfolio">
+            <div class="portfolio-item">
+                <img src="./img/layer-12.png" alt="forest road" class="portfolio-img"
+                     srcset="./img/layer-12@2x.png 2x, ./img/layer-12@3x.png 3x">
+                <div class="triangle-top"></div>
+                <div class="uppercase bg-white gray text-center py-1 portfolio-item-title">Aenean a elit</div>
+                <div class="overlay">
+                    <div class="circle text-center">+</div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="./img/layer-15.png" alt="lights" class="portfolio-img"
+                     srcset="./img/layer-15@2x.png 2x, ./img/layer-15@3x.png 3x">
+                <div class="triangle-top"></div>
+                <div class="uppercase bg-white gray text-center py-1 portfolio-item-title">Aliquam</div>
+                <div class="overlay">
+                    <div class="circle text-center">+</div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="./img/layer-17.png" alt="torns" class="portfolio-img"
+                     srcset="./img/layer-17@2x.png 2x, ./img/layer-17@3x.png 3x">
+                <div class="triangle-top"></div>
+                <div class="uppercase bg-white gray text-center py-1 portfolio-item-title">Suspendisse libero</div>
+                <div class="overlay">
+                    <div class="circle text-center">+</div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="./img/layer-18.png" alt="waterfall" class="portfolio-img"
+                     srcset="./img/layer-18@2x.png 2x, ./img/layer-18@3x.png 3x">
+                <div class="triangle-top"></div>
+                <div class="uppercase bg-white gray text-center py-1 portfolio-item-title">Maecenas fringilla</div>
+                <div class="overlay">
+                    <div class="circle text-center">+</div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="./img/layer-19.png" alt="forest" class="portfolio-img"
+                     srcset="./img/layer-19@2x.png 2x, ./img/layer-19@3x.png 3x">
+                <div class="triangle-top"></div>
+                <div class="uppercase bg-white gray text-center py-1 portfolio-item-title">Donec vehicula</div>
+                <div class="overlay">
+                    <div class="circle text-center">+</div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="./img/layer-20.png" alt="mountain" class="portfolio-img"
+                     srcset="./img/layer-20@2x.png, ./img/layer-20@3x.png 3x">
+                <div class="triangle-top"></div>
+                <div class="uppercase bg-white gray text-center py-1 portfolio-item-title">Ut et sapien</div>
+                <div class="overlay">
+                    <div class="circle text-center">+</div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="./img/layer-21.png" alt="tree" class="portfolio-img"
+                     srcset="./img/layer-21@2x.png 2x, ./img/layer-21@3x.png 3x">
+                <div class="triangle-top"></div>
+                <div class="uppercase bg-white gray text-center py-1 portfolio-item-title">quis malesuada</div>
+                <div class="overlay">
+                    <div class="circle text-center">+</div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="./img/layer-22.png" alt="flower" class="portfolio-img"
+                     srcset="./img/layer-22@2x.png 2x, ./img/layer-22@3x.png 3x">
+                <div class="triangle-top"></div>
+                <div class="uppercase bg-white gray text-center py-1 portfolio-item-title">Vestibulum ante</div>
+                <div class="overlay">
+                    <div class="circle text-center">+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="flex-column justiy-around">
+        <div class="flex-column justify-center items-center h-50">
+            <h3 class="text-center uppercase bigger mb-1 mt-2 section-title">contact us</h3>
+
+            <p class="text-center small mx-5">
+                Cras suscipit porttitor porttitor. Morbi sit amet tincidunt sapien. Curabitur posuere lectus aliquet
+                erat rutrum sollicitudin. In enim diam, ullamcorper quis libero et, ultricies commodo est. Quisque at
+                ante vitae justo fermentum viverra ac eu justo. Ut luctus imperdiet lacus, eget laoreet erat posuere
+                quis.
+            </p>
+        </div>
+        <div id="contact-details" class="flex-row justify-between items-end mt-2">
+            <div id="contact-information">
+                <div class="contact-information-item">
+                    <h3 class="xs-none">Address</h3>
+                    <h4 class="light mt-2 mb-2 xs-none">Acrostia</h4>
+                    <div>
+                        <p>Sevenoaks Rd</p>
+                        <p>Sevenoaks TN14 7HR, UK</p>
+                    </div>
+                </div>
+                <div class="contact-information-item">
+                    <p class="flex-row justify-between">
+                        <span>Phone:</span>
+                        <span>+44 555 555 555</span>
+                    </p>
+                    <p class="flex-row justify-between">
+                        <span>Fax:</span>
+                        <span>+44 555 555 555</span>
+                    </p>
+                    <p class="flex-row justify-between">
+                        <span>E-mail:</span>
+                        <span class="underline">info@acrostia.com</span>
+                    </p>
+                    <p class="flex-row justify-between">
+                        <span>Skype:</span>
+                        <span class="basis-70">Ac0stia</span>
+                    </p>
+                </div>
+            </div>
+            <div id="map">
+                <img src="./img/layer-23.png" alt="map" srcset="./img/layer-23@2x.png 2x, ./img/layer-23@3x.png 3x">
+            </div>
+            <div id="form">
+                <h4 class="">Ask a question</h4>
+                <form action="#" method="post" class="mt-2 grow-1 flex-column justify-start">
+                    <div class="flex-row justify-between">
+                        <input type="text" name="name" placeholder="Name" class="bg-faded-green">
+                        <input type="email" name="email" placeholder="" class="ml-1 bg-white gray">
+                    </div>
+                    <div class="">
+                    <textarea name="question" class="gray bg-faded-green" rows="10"
+                              placeholder="Your question">
+                    </textarea>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="flex-row justify-end mt-2" id="submit-question">
+            <button type="submit" class="uppercase mr-5 bg-red p-1 basis-20">send</button>
+        </div>
+    </section>
+    <footer class="flex-row justify-center bg-faded-green">
+        <i class="bg-light-green social-icon icon-large facebook">
+            <a href="#">
+                <img src="./img/facebook.png" alt="facebook logo"
+                     srcset="./img/facebook@2x.png 2x, ./img/facebook@3x.png 3x">
+            </a>
+        </i>
+        <i class="bg-light-green social-icon icon-large twitter">
+            <a href="#">
+                <img src="./img/twit.png" alt="twitter logo"
+                     srcset="./img/twit@2x.png 2x, ./img/twit@3x.png 3x">
+            </a>
+        </i>
+        <i class="bg-light-green social-icon icon-large google">
+            <a href="#">
+                <img src="./img/g.png" alt="google plus logo"
+                     srcset="./img/g@2x.png 2x, ./img/g@3x.png 3x">
+            </a>
+        </i>
+        <i class="bg-light-green social-icon icon-large linked-in">
+            <a href="#">
+                <img src="./img/lin.png" alt="linked in logo"
+                     srcset="./img/lin@2x.png 2x, ./img/lin@3x.png 3x">
+            </a>
+        </i>
+    </footer>
+</div>
+<script src="lib/jquery/dist/jquery.js"></script>
+<script src="lib/jquery-scrollspy/jquery-scrollspy.js"></script>
+<script src="scripts/navigation-bar.js"></script>
+<script src="scripts/carousel.js"></script>
+</body>
+</html>

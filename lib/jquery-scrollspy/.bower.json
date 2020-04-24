@@ -1,0 +1,14 @@
+{
+  "name": "jquery-scrollspy",
+  "homepage": "https://github.com/sxalexander/jquery-scrollspy",
+  "_release": "24b34d9080",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "24b34d90807dc1875feefdd3ebd4255aec95aae3"
+  },
+  "_source": "https://github.com/sxalexander/jquery-scrollspy.git",
+  "_target": "*",
+  "_originalSource": "jquery-scrollspy",
+  "_direct": true
+}
